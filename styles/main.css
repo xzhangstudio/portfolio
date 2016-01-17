@@ -1,0 +1,428 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/* TAGS ----------------------
+------------------------------
+--------------------------- */
+ 
+    
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #ad235f;
+}
+
+a {
+    color: #000;
+}
+
+
+
+/* GENERAL -------------------
+------------------------------
+--------------------------- */
+
+#about-page, #illustration-page, #webdesign-page, #internal-page {
+    position: relative;
+}
+
+#gallery {
+    width: 980px;
+    height: auto;
+    margin: auto;
+    padding-top: 115px;
+    padding-bottom: 60px;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: #5a7774;
+    box-shadow: 0 1px 5px #5a7774;
+    z-index: 10;
+}
+
+#header #content {
+    margin-bottom: 4px;
+}
+
+#hamburger {
+    display: none;
+}
+
+#logo {
+    width: 206px;
+    height: 35px;
+    margin-top: 5px;
+    padding-top: 5px;
+    float: left;
+}
+
+#logo img {
+    height: 35px;
+    padding-right: 20px;
+}
+
+#nav {
+    font-variant: small-caps;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    float: right;
+}
+
+#nav li {
+    display: inline;
+    padding-left: 30px;
+    line-height: 24px;
+}
+
+#nav li img {
+    width: 22px;
+    padding-top: 12px;
+    position: relative; 
+    top: 5px;
+}
+
+#nav a {
+    color: #fff;
+}
+
+#nav a:hover {
+    color: #D6E8D9;
+}
+    
+#about-page .active,
+#illustration-page .active,
+#webdesign-page .active {
+    color: #D6E8D9;
+}
+
+
+
+.banner img {
+    width: 100%;
+    max-height: 15px;
+}
+
+#content {
+    width: 980px;
+    margin: auto;
+    overflow: hidden;
+    clear: both;
+}
+
+#footer {
+    max-height: 15px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* SPLASH --------------------------------*/
+
+.radius {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+}
+
+
+#splash-page {
+    background: url("../images/splashbg.png") repeat fixed;
+}
+
+#splash-page #content2 {
+    margin: 140px auto 0;
+    width: 900px;
+    text-align: center;
+}
+
+#splash-logo {
+    display: block;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+}
+
+#splash-logo .splash-text {
+    padding-top: 10px;
+    line-height: 25px;
+    font-size: 20px;
+    width: 300px;
+}
+
+
+#splash-buttons {
+    left: 5px;
+    display: inline-block;
+    margin: 65px;  
+}
+
+#splash-buttons:hover {
+    opacity: 0.7;
+}
+
+
+.splash-text {
+    font-variant: small-caps;
+    font-size: 20px;
+    text-align: center;
+    line-height: 250px;
+    font-family: 'Montserrat', sans-serif;
+    color: #86a59c;
+    display: block;
+}
+
+/* GALLERY --------------------------------*/
+
+#card {
+    width: 230px;
+    height: 285px;
+    background: #fff;
+    border: 1px solid #cad6cb;
+    float:left;
+    margin: 15px 6px;
+}
+
+#card:hover {
+    opacity: 0.8;
+    background-color: #v;
+}
+
+#thumb {
+    width: 220px;
+    height: 230px;
+    margin: 5px;
+    background: #000;
+}
+
+#title_card {
+    margin: 10px;
+}
+
+#title_card .title {
+    font-weight: 700;
+    font-size: 14px;   
+}
+
+#title_card .sub-title {
+    font-size: 10px;
+    color: #86a59c;   
+    line-height: 2;
+}
+
+
+/* ABOUT PAGE -----------------------------*/
+
+#about_img {
+    float: left;
+    width: 460px;
+    height: 534px;
+    background: url(../images/about-main.png);
+}
+
+#about {
+    float: right;
+    width: 480px;
+    height: 450px;
+    margin-bottom: 45px;
+}
+
+#red-title {
+    margin-bottom: 30px;
+}
+
+#red-title h1 {
+    font-variant: small-caps; 
+}
+
+#red-title2 {
+    float: left;
+    width: 240px;
+    margin-top: 50px;
+}
+
+#red-title2 h1 {
+    padding-bottom: 30px;
+    font-variant: small-caps; 
+}
+
+#about-text {
+    line-height: 25px;
+    margin-bottom: 20px;    
+}
+
+#about img {
+    padding-right: 10px;
+    padding-top: 10px;
+    position: relative;
+    top: 5px;
+}
+
+#about-links {
+    margin-top: 30px;
+    height: 50px;
+}
+
+#about-links .linktext {
+    position: relative; 
+    top: 5px;
+}
+
+#about-links .img {
+    position: relative; 
+    top: 5px;
+}
+
+
+/* INTERNAL PAGE -------------------------*/
+
+#internal-page #gallery{
+    padding-top: 95px;
+}
+
+#nextback {
+    width: 403px;
+    height: 60px;
+    margin: 0 auto 30px auto;
+}
+
+.arrow {
+    float: left;
+    width: 51.5px;
+    height: 21px;
+    padding-top: 20px;
+}
+
+.navthumb img {
+    float: left;
+    margin: 0 10px;
+    width: 80px;
+    height: 60px;
+    background: #ccc;
+}
+.active-thumb{
+    opacity: 0.5;
+}
+
+#main-img {
+    width: 980px;
+    margin: auto;
+    text-align: center;
+}
+
+#main-img img {
+    max-width: 980px;
+    max-height: 670px;
+    pointer-events: none;
+} 
+
+.main-title {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#break {
+    width: 580px;
+    height: 5px;
+    margin: auto;
+    background: #cad6cb;
+}
+
+.description {
+    width: 580px;
+    line-height: 25px;
+    margin: 30px auto;
+}
+.source-text, .source-text a {
+    font-size: 12px;
+    color: #ccc;
+}
+
+#process {
+    max-width: 780px;
+    margin: auto;
+    text-align: center;
+}
+
+.img-1col img {
+    max-width: 580px;
+    /*max-height: 400px;*/
+    text-align: center;
+}
+
+.img-1col .suzy {
+    max-width: 780px;
+}
+
+.img-1col .caption {
+    font-size: 13px;
+    line-height: 35px;
+    font-style: italic;
+    padding-bottom: 20px;
+    color: #ccc;
+}
+
+.img-2col img {
+    max-width: 380px;
+    max-height: 225px;
+    margin: 0 4px;
+}
+
+.img-2col .vertical {
+    max-width: 380px;
+    max-height: 430px;
+    margin: 0 4px;
+}
+
+.img-2col .vertical-s {
+    max-width: 245px;
+    max-height: 250px;
+    margin: 0 6px;
+}
+
+.img-3col img {
+    max-width: 245px;
+    max-height: 165px;
+    margin: 0 6px;
+}
+
+.img-3col .vertical {
+    max-width: 245px;
+    max-height: 270px;
+    margin: 0 6px;
+}
+
+
+
+.copyright p {
+    font-size: 10px;
+    color: #86a59c;
+    text-align: center;
+    margin: 50px auto 5px auto;
+}
+    
+/* CLASS -----------------------
+------------------------------
+--------------------------- */
+
+.amp {
+    font-size: 14px;
+}
+
+h1 .about {
+    margin-bottom: 50px;
+}
+
