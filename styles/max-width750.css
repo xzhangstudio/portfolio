@@ -45,6 +45,10 @@
     background-color: #3C504E;
 }
 
+#nav li a {
+    display: block;
+}
+
 #nav li img {
     padding: 10px 0;
     position: static;
