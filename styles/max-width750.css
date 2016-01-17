@@ -31,7 +31,7 @@
 }
 
 #nav.open {
-    height: 177px;
+    height: 224px;
     -webkit-transition: height 1s;
     transition: height 1s;
 }
@@ -41,12 +41,12 @@
     text-align: center;
     padding: 0;
     margin: 1px 0;
-    line-height: 35px;
+    line-height: 45px;
     background-color: #3C504E;
 }
 
 #nav li img {
-    padding: 6px 0;
+    padding: 10px 0;
     position: static;
     top: 0;
 }
