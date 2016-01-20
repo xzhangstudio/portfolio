@@ -204,7 +204,6 @@ a {
     width: 220px;
     height: 230px;
     margin: 5px;
-    background: #000;
 }
 
 #title_card {
@@ -310,7 +309,6 @@ a {
     margin: 0 10px;
     width: 80px;
     height: 60px;
-    background: #ccc;
 }
 .active-thumb{
     opacity: 0.5;
