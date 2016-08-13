@@ -404,6 +404,11 @@ a {
 }
 
 
+.wireframe {
+    border: 1px solid;
+    border-color: #eee;
+}
+
 
 .copyright p {
     font-size: 10px;
