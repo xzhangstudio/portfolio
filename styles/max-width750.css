@@ -2,8 +2,12 @@
 
 /* GENERAL --------------------------------*/
 
+p {
+    font-size: 15px;
+}
 
-#header #content {
+
+#header .content {
     width: 100%;
 }
 
@@ -17,8 +21,10 @@
 }
 
 #logo {
+    width: 155px;
     margin: auto;
     float: none;
+    padding: 11px 0;
 }
 
 #nav {
@@ -31,7 +37,7 @@
 }
 
 #nav.open {
-    height: 224px;
+    height: 180px;
     -webkit-transition: height 1s;
     transition: height 1s;
 }
@@ -42,7 +48,7 @@
     padding: 0;
     margin: 1px 0;
     line-height: 45px;
-    background-color: #3C504E;
+    background-color: #dedcda;
 }
 
 #nav li a {
@@ -58,7 +64,7 @@
 #about-page .active,
 #illustration-page .active,
 #webdesign-page .active {
-    color: #BD9090;
+    color: #E94E1B;
 }
 
 
@@ -70,56 +76,26 @@
     width: 100%;
 }
 
-#webdesign-page #gallery #content,
-#illustration-page #gallery #content {
+#webdesign-page #gallery .content,
+#illustration-page #gallery .content {
     width: 488px;
 }
 
-#gallery #content {
+#gallery {
     width: 100%;
     margin: auto;
     overflow: hidden;
     clear: both;
 }
 
-/* SPLASH --------------------------------*/
-
-
-#splash-page #content2 {
-    margin: 20px auto 0;
-    width: 100%;
-    text-align: center;
-}    
-
-#splash-buttons {
-    left: 5px;
-    display: inline-block;
-    margin: 10px 30px; 
-}
-
-#splash-logo {
-    display: block;
-    width: 300px;
-    height: 140px;
-    margin: auto;
-}
-
-#red-title {
-    height: auto;
-    margin: 20px 0;
-}
-
 
 /* GALLERY --------------------------------*/
 
 #card {
-    width: 230px;
-    height: 285px;
-    background: #fff;
-    border: 1px solid #cad6cb;
-    float: none;
-    display: inline-block;
-    margin: 0 5px 20px;
+    display: block;
+    margin: 15px 8px;
+    padding: 0 8px;
+    text-align: center;
 }
 
 
@@ -147,7 +123,7 @@
 }
 
 #red-title2 h1 {
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 
@@ -157,32 +133,27 @@
     padding-top: 95px;
 }
 
-
-
-#process,
+#process, #process img,
 #main-img, 
-#main-img img,
-.img-1col img {
+#main-img img {
     max-width: 100%;
     height: auto;
+    margin: 8px 0;
 }
 
-.img-2col .vertical {
-    padding: 10px 0;
+#process .designprocess-main {
+    max-width: 100%;
 }
 
-.img-1col .suzy,
-.img-2col img,
-.img-2col .vertical-s,
-.img-3col img,
-.img-3col .vertical {
+
+#process .designprocess {
     max-width: 100%;
     max-height: inherit;
-    margin: 10px 0;
+    margin: auto;
 }
 
-#break, .description {
-    width: 70%;
+.description {
+    width: 90%;
 }
 
 
