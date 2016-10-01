@@ -201,6 +201,7 @@ h1 .about {
     padding-top: 10px;
     position: relative;
     top: 5px;
+    max-height: 22px;
 }
 
 #about-links {
@@ -213,10 +214,7 @@ h1 .about {
     top: 5px;
 }
 
-#about-links .img {
-    position: relative; 
-    top: 5px;
-}
+
 
 
 /* INTERNAL PAGE -------------------------*/
