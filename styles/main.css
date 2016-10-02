@@ -22,15 +22,14 @@ a {
     color: #897F7B;
 }
 
+a:hover {
+    color: #E94E1B;
+}
 
 
 /* GENERAL -------------------
 ------------------------------
 --------------------------- */
-
-#about-page, #work-page, #internal-page {
-    position: relative;
-}
 
 #gallery {
     width: 980px;
@@ -91,17 +90,8 @@ a {
     top: 5px;
 }
 
-a {
-    color: #897F7B;
-}
-
-a:hover {
-    color: #E94E1B;
-}
     
-#about-page .active,
-#work-page .active,
-#webdesign-page .active {
+.active {
     color: #E94E1B;
 }
 
@@ -114,12 +104,11 @@ a:hover {
 
 #footer {
     width: 100%;
-    position: absolute;
     left: 0;
     bottom: 0;
 }
 
-.copyright p {
+#footer p {
     font-size: 10px;
     color: #897F7B;
     text-align: center;
@@ -144,12 +133,12 @@ a:hover {
     margin-top: 10px;
 }
 
-#title_card .title {
+.title {
     color: #897F7B;
     font-size: 13px;   
 }
 
-#title_card .worktype {
+.worktype {
     color: #E94E1B;
     font-size: 12px;   
 }
@@ -175,11 +164,7 @@ a:hover {
     margin-bottom: 45px;
 }
 
-/*#red-title {
-    margin-bottom: 20px;
-}*/
-
-#red-title2 {
+#red-title {
     float: left;
     width: 240px;
     margin-top: 50px;
@@ -219,7 +204,7 @@ h1 .about {
 
 /* INTERNAL PAGE -------------------------*/
 
-#internal-page #gallery{
+#gallery{
     padding-top: 95px;
 }
 
@@ -246,9 +231,12 @@ h1 .about {
 }
 
 .main-title {
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 100;
     color: #897F7B;
+    padding-bottom: 15px;
+    display: inline-block;
 }
 
 .sub-title {
@@ -256,21 +244,26 @@ h1 .about {
     color: #E94E1B;
     font-family: 'Open Sans';
     font-weight: 100;
+    display: inline-block;
 }
 
 #line {
     border-top: solid 1px #DEDCDA;
     margin-bottom: 30px;
+    clear: both;
 }
 
 .description {
     width: 100%;
     line-height: 30px;
     margin: 30px auto;
+    display: inline-block;
 }
-.source-text, .source-text a {
+.source-text {
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #ccc;
+    display: inline-block;
 }
 
 .source-text a:hover {
@@ -297,12 +290,14 @@ h1 .about {
 }
 
 
-#process .designprocess-main {
+.designprocess-main {
     max-width: 856px;
+    min-width: 500px;
     margin: auto;
     padding: 10px 0;
     float: none;
     display: block;
+    overflow: hidden;
 }
 
 
