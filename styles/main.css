@@ -226,8 +226,7 @@ h1 .about {
 }
 
 #internal-page p {
-    margin: 0 0 10px 8px;
-    clear: both;
+    display: inline;
 }
 
 .main-title {
@@ -236,7 +235,8 @@ h1 .about {
     font-weight: 100;
     color: #897F7B;
     padding-bottom: 15px;
-    display: inline-block;
+    border-bottom: 1px solid #DEDCDA;
+    margin-bottom: 30px;
 }
 
 .sub-title {
@@ -245,12 +245,6 @@ h1 .about {
     font-family: 'Open Sans';
     font-weight: 100;
     display: inline-block;
-}
-
-#line {
-    border-top: solid 1px #DEDCDA;
-    margin-bottom: 30px;
-    clear: both;
 }
 
 .description {
@@ -275,7 +269,7 @@ h1 .about {
     overflow: hidden;
     display: block;
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 #process img {
@@ -290,8 +284,8 @@ h1 .about {
 }
 
 
-.designprocess-main {
-    max-width: 856px;
+.designprocess-main img {
+    max-width: 980px;
     min-width: 500px;
     margin: auto;
     padding: 10px 0;
