@@ -104,16 +104,11 @@ a:hover {
 }
 
 #footer {
-    width: 100%;
-    left: 0;
-    bottom: 0;
+    text-align: center;
 }
 
 #footer p {
     font-size: 10px;
-    color: #897F7B;
-    text-align: center;
-    margin: 50px auto 25px auto;
 }
 
 /* GALLERY --------------------------------*/
@@ -147,7 +142,7 @@ a:hover {
 
 /* ABOUT PAGE -----------------------------*/
 
-#about-page #gallery h1{
+.about_h1{
     margin-left: 0;
 }
 
