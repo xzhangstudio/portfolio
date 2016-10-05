@@ -2,24 +2,17 @@
 
 /* GENERAL --------------------------------*/
 
-#webdesign-page #gallery #content,
-#illustration-page #gallery #content {
-    width: 232px;
+p {
+    font-size: 14px;
 }
 
-
-
-/* SPLASH --------------------------------*/
-
-#splash-buttons {
-    margin: 10px;  
-}
 
 /* GALLERY --------------------------------*/
 
 #card {
     display: block;
     margin: 0 auto 20px;
+    float: none;
 }
 
 
@@ -44,26 +37,17 @@
 
 /* INTERNAL PAGE -------------------------*/
 
-#nextback {
-    margin: 0 auto 20px auto;
-    height: 52px;
-    width: 330px;
+#process, #process img,
+#main-img, 
+#main-img img {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    margin: 8px 0;
 }
 
-.arrow {
-    width: 40px;
-    height: inherit;
-}
-.arrow img {
-    width: 40px;
-    height: inherit;
+.designprocess, .designprocess-main img {
+    max-width: 100%;
+    min-width: 100%;
 }
 
-.navthumb img {
-    margin: 0 5px;
-    width: 70px;
-    height: inherit;
-}
-
-
-}
