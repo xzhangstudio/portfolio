@@ -49,9 +49,6 @@ a:hover {
     z-index: 10;
 }
 
-#header .content {
-    width: 980px;
-}
 
 #hamburger {
     display: none;
@@ -98,6 +95,7 @@ a:hover {
 
 
 .content {
+    width: 980px;
     margin: auto;
     overflow: hidden;
     clear: both;
@@ -142,10 +140,6 @@ a:hover {
 
 /* ABOUT PAGE -----------------------------*/
 
-.about_h1{
-    margin-left: 0;
-}
-
 #about_img {
     float: left;
     width: 460px;
@@ -160,17 +154,18 @@ a:hover {
     margin-bottom: 45px;
 }
 
-#red-title {
+#about2col {
     float: left;
     width: 240px;
     margin-top: 50px;
 }
 
-
-h1 .about {
-    margin-bottom: 50px;
+#about-header {
+    margin: 15px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #E94E1B;
 }
-
 
 #about-text {
     line-height: 30px;
@@ -186,15 +181,10 @@ h1 .about {
 }
 
 #about-links {
-    margin-top: 30px;
-    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #897F7B;
 }
-
-#about-links .linktext {
-    position: relative; 
-    top: 5px;
-}
-
 
 
 
@@ -256,6 +246,11 @@ h1 .about {
     color: #E94E1B;
 }
 
+.weblabel {
+    display: block;
+    margin: 20px 8px 10px 8px;
+}
+
 
 #process {
     overflow: hidden;
@@ -270,9 +265,9 @@ h1 .about {
     margin: 8px;
 }
 
-#process .designprocess {
-    max-width: 472px;
-    padding: 10px 0;
+.designprocess {
+    min-width: 472px;
+    padding: 5px 0;
 }
 
 
