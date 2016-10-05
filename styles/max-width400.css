@@ -6,11 +6,6 @@ p {
     font-size: 14px;
 }
 
-#webdesign-page #gallery .content,
-#illustration-page #gallery .content {
-    width: 232px;
-}
-
 
 /* GALLERY --------------------------------*/
 
@@ -41,4 +36,18 @@ p {
 
 
 /* INTERNAL PAGE -------------------------*/
+
+#process, #process img,
+#main-img, 
+#main-img img {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    margin: 8px 0;
+}
+
+.designprocess, .designprocess-main img {
+    max-width: 100%;
+    min-width: 100%;
+}
 
